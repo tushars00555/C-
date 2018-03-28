@@ -10,21 +10,45 @@ If bytes flow from device like printer, display screen, or a network connection,
 
 The **cout ** is a predefined object of **ostream ** class. It is connected with the standard output device, which is usually a display screen. The cout is used in conjunction with stream insertion operator \(&lt;&lt;\) to display the output on a console
 
+\#include &lt;iostream&gt;
+
+using namespace std;
+
+int main\( \) {
+
+char ary\[\] = "Welcome to C++ tutorial";
+
+cout &lt;&lt;"Value of ary is: "&lt;&lt; ary &lt;&lt; endl;
+
+}
+
+output:
+
+Value of ary is: Welcome to C++ tutorial
+
+
+
+## Standard input stream \(cin\)
+
+The **cin** is a predefined object of **istream** class. It is connected with the standard input device, which is usually a keyboard. The cin is used in conjunction with stream extraction operator \(&gt;&gt;\) to read the input from a console.
+
+Let's see the simple example of standard input stream \(cin\):
+
 \#include &lt;iostream&gt;
 
 using namespace std;  
 
 int main\( \) {  
 
-char ary\[\] = "Welcome to C++ tutorial";  
+int age;  
 
-   cout &lt;&lt;"Value of ary is: "&lt;&lt; ary &lt;&lt; endl;  
+   cout &lt;&lt;"Enter your age: ";  
+
+   cin &gt;&gt; age;  
+
+   cout &lt;&lt;"Your age is: "&lt;&lt; age &lt;&lt; endl;  
 
 }  
-
-output:
-
-Value of ary is: Welcome to C++ tutorial
 
 
 
