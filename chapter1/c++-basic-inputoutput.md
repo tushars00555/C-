@@ -26,13 +26,33 @@ output:
 
 Value of ary is: Welcome to C++ tutorial
 
-
-
 ## Standard input stream \(cin\)
 
 The **cin** is a predefined object of **istream** class. It is connected with the standard input device, which is usually a keyboard. The cin is used in conjunction with stream extraction operator \(&gt;&gt;\) to read the input from a console.
 
 Let's see the simple example of standard input stream \(cin\):
+
+\#include &lt;iostream&gt;
+
+using namespace std;
+
+int main\( \) {
+
+int age;
+
+cout &lt;&lt;"Enter your age: ";
+
+cin &gt;&gt; age;
+
+cout &lt;&lt;"Your age is: "&lt;&lt; age &lt;&lt; endl;
+
+}
+
+
+
+## Standard end line \(endl\)
+
+The **endl ** s a predefined object of **ostream ** class. It is used to insert a new line characters and flushes the stream.
 
 \#include &lt;iostream&gt;
 
@@ -40,15 +60,13 @@ using namespace std;  
 
 int main\( \) {  
 
-int age;  
+cout &lt;&lt;"C++ Tutorial";     
 
-   cout &lt;&lt;"Enter your age: ";  
+cout &lt;&lt;" Javatutorial"&lt;&lt;endl;   
 
-   cin &gt;&gt; age;  
+cout &lt;&lt;"End of line"&lt;&lt;endl;   
 
-   cout &lt;&lt;"Your age is: "&lt;&lt; age &lt;&lt; endl;  
-
-}  
+}
 
 
 
