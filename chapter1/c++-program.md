@@ -4,30 +4,19 @@ Before starting the abcd of C++ language, you need to learn how to write, compil
 
 To write the first C++ program, open the C++ console and write the following code:
 
+\#include&lt;iostream.h&gt;
 
+\#include&lt;conio.h&gt;
 
-\#include 
+void main\(\) {  
 
-&lt;
+clrscr\(\);  
 
-iostream.h
+cout &lt;&lt;"Welcome to C++ Programming.";   
 
-&gt;
+getch\(\);  
 
-1. \#include
-   &lt;
-   conio.h
-   &gt;
-2. void
-    main\(\) {  
-3.    clrscr\(\);  
-4.    cout 
-   &lt;
-   &lt;
-   "Welcome to C++ Programming."
-   ;   
-5.    getch\(\);  
-6. }  
+}  
 
 **\#include&lt;iostream.h&gt;** includes the **standard input output** library functions. It provides **cin** and **cout** methods for reading from input and writing to output respectively.
 
@@ -38,6 +27,4 @@ iostream.h
 **cout &lt;&lt; "Welcome to C++ Programming."** is **used to print the data "Welcome to C++ Programming."** on the console.
 
 **getch\(\)** The getch\(\) function **asks for a single character**. Until you press any key, it blocks the screen.
-
-
 
