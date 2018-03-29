@@ -7,47 +7,44 @@ In C++ programming, if statement is used to test the condition. There are variou
 * nested if statement
 * if-else-if ladder
 
-
-
 ## C++ IF Statement
 
 The C++ if statement tests the condition. It is executed if condition is true.
 
-if\(condition\){    
+if\(condition\){
 
-//code to be executed  
+//code to be executed
 
-} 
+}
 
 ## C++ If Example
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using  namespace std;  
+using  namespace std;
 
-int  main \(\) {  
+int  main \(\) {
 
-int num = 10;    
+int num = 10;
 
-if\(num % 2 == 0\)    
+if\(num % 2 == 0\)
 
-    {    
+```
+{    
 
-       cout&lt;&lt;"It is even number";    
+   cout&lt;&lt;"It is even number";    
+```
 
-}   
+}
 
-return 0;  
+return 0;
 
-}  
+}
 
 **Output:/p&gt;**
 
-```
+```cpp
 It is even number
-
-
-
 
 
 
