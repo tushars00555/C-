@@ -7,4 +7,5 @@
   * [C++ Features](chapter1/c++-features.md)
   * [C++ Program](chapter1/c++-program.md)
   * [C++ Basic Input/Output](chapter1/c++-basic-inputoutput.md)
+  * [C++ Variable](chapter1/c++-variable.md)
 
