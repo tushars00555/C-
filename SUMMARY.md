@@ -8,4 +8,5 @@
   * [C++ Program](chapter1/c++-program.md)
   * [C++ Basic Input/Output](chapter1/c++-basic-inputoutput.md)
   * [C++ Variable](chapter1/c++-variable.md)
+  * [C++ Data Types](chapter1/c++-data-types.md)
 
