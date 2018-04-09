@@ -14,4 +14,5 @@
 * [C++  Control Statement](c++-control-statement.md)
   * [C++ if-else](c++-control-statement/c++-if-else.md)
   * [C++ switch](c++-control-statement/c++-switch.md)
+  * [C++ For Loop](c++-control-statement/c++-for-loop.md)
 
