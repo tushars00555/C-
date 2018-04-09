@@ -2,33 +2,35 @@
 
 In C++, while loop is used to iterate a part of the program several times. If the number of iteration is not fixed, it is recommended to use while loop than for loop.
 
-while\(condition\){    
+while\(condition\){
 
-//code to be executed  
+//code to be executed
 
-}    
+}
 
 ## C++ While Loop Example
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using namespace std;  
+using namespace std;
 
-int main\(\) {         
+int main\(\) {
 
-int i=1;      
+int i=1;
 
-while\(i&lt;=10\)   
+while\(i&lt;=10\)
 
-       {      
+```
+   {      
 
-            cout&lt;&lt;i &lt;&lt;"\n";    
+        cout&lt;&lt;i &lt;&lt;"\n";    
 
-            i++;  
+        i++;  
 
-          }       
+      }       
 
-    }  
+}  
+```
 
 Output:
 
@@ -43,40 +45,43 @@ Output:
 8
 9
 10
-
 ```
 
 ## C++ Nested While Loop Example
 
 In C++, we can use while loop inside another while loop, it is known as nested while loop. The nested while loop is executed fully when outer loop is executed once.
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using namespace std;  
+using namespace std;
 
-int main \(\) {  
+int main \(\) {
 
-int i=1;      
+int i=1;
 
-while\(i&lt;=3\)     
+while\(i&lt;=3\)
 
-          {    
+```
+      {    
+```
 
-int j = 1;    
+int j = 1;
 
-while \(j &lt;= 3\)    
+while \(j &lt;= 3\)
 
-{                  cout&lt;&lt;i&lt;&lt;" "&lt;&lt;j&lt;&lt;"\n";      
+{                  cout&lt;&lt;i&lt;&lt;" "&lt;&lt;j&lt;&lt;"\n";
 
-            j++;  
+```
+        j++;  
 
-          }     
+      }     
 
-           i++;  
+       i++;  
 
-        }  
+    }  
 
-    }    
+}    
+```
 
 Output:
 
@@ -90,7 +95,32 @@ Output:
 3 1
 3 2
 3 3
+```
 
+## C++ Infinitive While Loop Example:
+
+\#include &lt;iostream&gt;
+
+usin namespace std;  
+
+int main \(\) {  
+
+while\(true\)  
+
+          {    
+
+                  cout&lt;&lt;"Infinitive While Loop";    
+
+          }    
+
+    }    
+
+Output:
+
+```
+Infinitive While Loop 
+Infinitive While Loop
+Infinitive While Loop
 ```
 
 
