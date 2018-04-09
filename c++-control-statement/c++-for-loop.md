@@ -4,29 +4,29 @@ The C++ for loop is used to iterate a part of the program several times. If the 
 
 The C++ for loop is same as C/C\#. We can initialize variable, check condition and increment/decrement value.
 
+for\(initialization; condition; incr/decr\){
 
+//code to be executed
 
-for\(initialization; condition; incr/decr\){    
-
-//code to be executed  
-
-} 
+}
 
 ## C++ For Loop Example
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using namespace std;  
+using namespace std;
 
-int main\(\) {  
+int main\(\) {
 
-for\(int i=1;i&lt;=10;i++\){      
+for\(int i=1;i&lt;=10;i++\){
 
-            cout&lt;&lt;i &lt;&lt;"\n";      
+```
+        cout&lt;&lt;i &lt;&lt;"\n";      
 
-          }       
+      }       
 
-    }   
+}   
+```
 
 Output:
 
@@ -49,23 +49,25 @@ In C++, we can use for loop inside another for loop, it is known as nested for l
 
 ## C++ Nested For Loop Example
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using namespace std;  
+using namespace std;
 
-int main \(\) {  
+int main \(\) {
 
-for\(int i=1;i&lt;=3;i++\){      
+for\(int i=1;i&lt;=3;i++\){
 
-for\(int j=1;j&lt;=3;j++\){      
+for\(int j=1;j&lt;=3;j++\){
 
-            cout&lt;&lt;i&lt;&lt;" "&lt;&lt;j&lt;&lt;"\n";      
+```
+        cout&lt;&lt;i&lt;&lt;" "&lt;&lt;j&lt;&lt;"\n";      
 
-          }     
+      }     
 
-        }  
+    }  
 
-    }    
+}    
+```
 
 Output:
 
@@ -79,7 +81,35 @@ Output:
 3 1
 3 2
 3 3
+```
 
+## C++ Infinite For Loop
+
+If we use double semicolon in for loop, it will be executed infinite times. Let's see a simple example of infinite for loop in C++.
+
+\#include &lt;iostream&gt;
+
+using namespace  std;  
+
+int main \(\) {  
+
+for \(; ;\)    
+
+          {    
+
+                  cout&lt;&lt;"Infinitive For Loop";    
+
+          }    
+
+    }    
+
+Output:
+
+```
+Infinitive For Loop
+Infinitive For Loop
+Infinitive For Loop
+Infinitive For Loop
 ```
 
 
