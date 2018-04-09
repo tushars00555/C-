@@ -27,7 +27,7 @@ do{
 
       i++;    
 
-  }while\(i <;= 10\) ;    
+  }while\(i <;= 10\) ;
 ```
 
 }
@@ -66,17 +66,17 @@ int  j = 1;
 do{
 
 ```
-            cout&lt;&lt;i&lt;&lt;"\n";        
+            cout<<i<<"\n";        
 
            j++;    
 
-    } while\(j &lt;= 3\) ;     
+    } while(j<= 3) ;
 ```
 
 i++;
 
 ```
-      } while \(i &lt;= 3\) ;     
+      } while \(i &lt;= 3\) ;
 ```
 
 }
@@ -106,7 +106,7 @@ int main\(\) {
 do{
 
 ```
-          cout&lt;&lt;"Infinitive do-while Loop";    
+          cout&lt;&lt;"Infinitive do-while Loop";
 ```
 
 }while\(true\);
