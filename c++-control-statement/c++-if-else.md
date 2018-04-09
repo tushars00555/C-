@@ -27,13 +27,15 @@ int  main \(\) {
 
 int num = 10;
 
-if \(num % 2 == 0\)    
+if \(num % 2 == 0\)
 
- {    
+{
 
-    cout&lt;&lt;"It is even number";    
+```
+cout<<"It is even number";    
+```
 
-  }
+}
 
 return 0;
 
