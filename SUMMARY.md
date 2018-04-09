@@ -13,4 +13,5 @@
   * [C++ Operators](chapter1/c++-operators.md)
 * [C++  Control Statement](c++-control-statement.md)
   * [C++ if-else](c++-control-statement/c++-if-else.md)
+  * [C++ switch](c++-control-statement/c++-switch.md)
 
