@@ -4,31 +4,33 @@ The C++ do-while loop is used to iterate a part of the program several times. If
 
 The C++ do-while loop is executed at least once because condition is checked after loop body.
 
-do{    
+do{
 
-//code to be executed  
+//code to be executed
 
-}while\(condition\);  
+}while\(condition\);
 
 ## C++ do-while Loop Example
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using  namespace std;  
+using  namespace std;
 
-int main\(\) {  
+int main\(\) {
 
-int i = 1;    
+int i = 1;
 
-do{    
+do{
 
-         cout&lt;&lt;&lt;&lt;"\n";    
+```
+     cout<<i<<"\n";    
 
-          i++;    
+      i++;    
 
-      }while\(i &lt;= 10\) ;    
+  }while\(i <;= 10\) ;    
+```
 
-} 
+}
 
 Output:
 
@@ -43,38 +45,41 @@ Output:
 8
 9
 10
-
 ```
 
 ## C++ Nested do-while Loop
 
 In C++, if you use do-while loop inside another do-while loop, it is known as nested do-while loop. The nested do-while loop is executed fully for each outer do-while loop.
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using namespace std;  
+using namespace std;
 
-int main\(\) {  
+int main\(\) {
 
-int i = 1;    
+int i = 1;
 
-do{    
+do{
 
-int  j = 1;          
+int  j = 1;
 
-do{    
+do{
 
-                cout&lt;&lt;i&lt;&lt;"\n";        
+```
+            cout&lt;&lt;i&lt;&lt;"\n";        
 
-               j++;    
+           j++;    
 
-        } while\(j &lt;= 3\) ;     
+    } while\(j &lt;= 3\) ;     
+```
 
-i++;    
+i++;
 
-          } while \(i &lt;= 3\) ;     
+```
+      } while \(i &lt;= 3\) ;     
+```
 
-}  
+}
 
 Output:
 
@@ -88,24 +93,25 @@ Output:
 3 1
 3 2
 3 3
-
 ```
 
 ## C++ Infinitive do-while Loop Example
 
-\#include &lt;iostream&gt;
+\#include &lt;iostream&gt;
 
-using namespace std;  
+using namespace std;
 
-int main\(\) {  
+int main\(\) {
 
-do{    
+do{
 
-              cout&lt;&lt;"Infinitive do-while Loop";    
+```
+          cout&lt;&lt;"Infinitive do-while Loop";    
+```
 
-}while\(true\);     
+}while\(true\);
 
-}  
+}
 
 Output:
 
