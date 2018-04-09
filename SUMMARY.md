@@ -19,4 +19,5 @@
   * [C++ Do-While Loop](c++-control-statement/c++-do-while-loop.md)
   * [C++ Break Statement](c++-control-statement/c++-break-statement.md)
   * [C++ Continue Statement](c++-control-statement/c++-continue-statement.md)
+  * [C++ Goto Statement](c++-control-statement/c++-goto-statement.md)
 
