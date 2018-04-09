@@ -20,4 +20,5 @@
   * [C++ Break Statement](c++-control-statement/c++-break-statement.md)
   * [C++ Continue Statement](c++-control-statement/c++-continue-statement.md)
   * [C++ Goto Statement](c++-control-statement/c++-goto-statement.md)
+  * [C++ Comments](c++-control-statement/c++-comments.md)
 
